@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="PostgreSQL - postgres@172.17.0.2" uuid="3cf8f8a1-8c01-444a-b21b-c2d0a3b2c6f4">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://172.17.0.2:30001/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Apache Cassandra - @localhost" uuid="a01676c1-d36a-4b5f-a0f8-6c8aa09314b4">
+      <driver-ref>cassandra</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:cassandra://localhost:9042</jdbc-url>
+    </data-source>
+  </component>
+</project>
