@@ -1,4 +1,4 @@
-package com.byteobject.prototype.datastructures.printzeroevenodd;
+package com.byteobject.prototype.leetcode.printzeroevenodd;
 
 public class Main {
 

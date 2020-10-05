@@ -1,4 +1,4 @@
-package com.byteobject.prototype.datastructures.fizzbuzz;
+package com.byteobject.prototype.leetcode.fizzbuzz;
 
 public class FizzBuzz {
 

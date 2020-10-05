@@ -1,4 +1,4 @@
-package com.byteobject.prototype.datastructures.printinorder;
+package com.byteobject.prototype.leetcode.printinorder;
 
 import java.util.concurrent.Semaphore;
 
