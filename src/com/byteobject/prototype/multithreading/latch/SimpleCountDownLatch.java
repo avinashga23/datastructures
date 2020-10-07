@@ -21,7 +21,8 @@ public class SimpleCountDownLatch implements CountDownLatch {
     @Override
     public synchronized void await() {
         try {
-            this.wait();
+            if (tokens.get() != 0)
+                this.wait();
         } catch (InterruptedException e) {
             // Do nothing
         }
